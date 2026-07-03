@@ -6,6 +6,8 @@
 
 微信接入层从 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)（MIT）的 `gateway/platforms/weixin.py` 抽取并解耦，走腾讯 **iLink Bot API**（个人微信机器人，官方接口，非 hook / 非协议逆向）。Agent 层用官方 **Claude Agent SDK** 驱动 Claude Code。
 
+<p align="center"><img src="docs/screenshot.png" width="360" alt="微信里和 Claude Code 对话"></p>
+
 ## 特性
 
 - **扫码绑定** — 终端打印二维码，微信扫一下就连上
