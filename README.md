@@ -41,7 +41,7 @@
 - 一个**独立的微信号**（见下方[关键说明](#关键说明)）
 
 ```bash
-git clone <this-repo> && cd wxcc
+git clone https://github.com/noobprogrammewhy/wxcc.git && cd wxcc
 python -m venv .venv
 # Windows
 .venv\Scripts\python -m pip install -r requirements.txt
