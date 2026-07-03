@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.wxcc/
+wxcc-workspace/
+# login artifacts (contain account id / QR)
+login.out
+*.out
+qr.png

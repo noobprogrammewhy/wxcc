@@ -1,0 +1,5 @@
+aiohttp>=3.9
+cryptography>=42
+certifi
+qrcode>=7.4
+claude-agent-sdk>=0.1.0
